@@ -350,19 +350,20 @@ font-size: 14px;
     color: #088178;
     border: none;
 }
+
 #banner{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: center;
-background-image: url(banner1.png);
-width: 100%;
-margin: 0 auto;
-box-sizing: border-box;
-height: 40vh;
-background-size: cover;
-background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(banner1.png);
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
 }
 
 #banner h4{
