@@ -163,6 +163,12 @@ justify-content: center;
   overflow: hidden;
   padding: 10px 0;
 }
+
+.scroll {
+  display: flex;
+  width: max-content;
+  animation: move 40s linear infinite;
+}
  #hero button:hover{
     color: #f90000;
     transition: 0.3s ease;
