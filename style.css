@@ -359,6 +359,7 @@ text-align: center;
 background-image: url(banner1.png);
 width: 100%;
 margin: 0 auto;
+box-sizing: border-box;
 height: 40vh;
 background-size: cover;
 background-position: center;
