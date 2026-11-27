@@ -48,6 +48,20 @@ p {
   margin: 40px ;
 }
 
+button.normal{
+
+font-size: 14px;
+font-weight: 600;
+padding: 15px 30px;
+color: #000;
+background-color: #fff;
+border-radius: 4px;
+cursor: pointer;
+border: none;
+outline: none;
+transition: 0.2s;
+}
+
 body {
   width: 100%;
 }
@@ -320,15 +334,53 @@ font-size: 14px;
   color: #088178;
 }
 
-#product1 .pro .cart{
-width: 40px;
-height: 40px;
-line-height: 40px;
-border-radius: 50px;
-background-color: #e8f6ea;
-font-weight: 500;
-color: #088178;
-border: 1px solid #cce7d0;
-bottom: 20px;
-right:10px
+
+#product1 .pro .cart {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+    border-radius: 50%;
+    background-color: #e8f6ea;
+    color: #088178;
+    border: none;
+}
+#banner{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-image: url(banner1.png);
+width: 100%;
+height: 40vh;
+background-size: cover;
+background-position: center;
+}
+
+#banner h4{
+
+color: #fff;
+font-size: 20px;
+}
+
+#banner h2 span{
+
+color: #ef3636;
+font-size: 35px;
+padding: 10px 0;
+}
+
+#banner button:hover{
+background: red;
+color: #fff;
+
+
+
+
 }
