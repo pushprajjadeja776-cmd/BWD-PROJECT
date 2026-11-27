@@ -169,6 +169,11 @@ justify-content: center;
   width: max-content;
   animation: move 40s linear infinite;
 }
+
+.scroll span {
+  padding: 0 50px;
+  white-space: nowrap;
+}
  #hero button:hover{
     color: #f90000;
     transition: 0.3s ease;
