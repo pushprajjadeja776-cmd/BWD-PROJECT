@@ -181,7 +181,7 @@ justify-content: center;
 .scroll {
   display: flex;
   width: max-content;
-  animation: move 40s linear infinite;
+  animation: move 50s linear infinite;
 }
 
 .scroll span {
