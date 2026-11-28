@@ -15,3 +15,16 @@ shopButton.onclick = function () {
   document.getElementById("product1").scrollIntoView();
 };
 
+// add to cart
+var cartButtons = document.querySelectorAll(".pro .cart");
+var cartCount = 0;
+
+for (var i = 0; i < cartButtons.length; i++) {
+  cartButtons[i].onclick = function (event) {
+    event.preventDefault();
+    cartCount = cartCount + 1;
+    alert("Added to cart! Items in cart: " + cartCount);
+  };
+}
+
+
