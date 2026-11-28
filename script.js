@@ -8,7 +8,7 @@ if (menuButton) {
   };
 }
 
-// shop now button goes down to products
+// shop now 
 var shopButton = document.querySelector("#hero button");
 
 shopButton.onclick = function () {
